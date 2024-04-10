@@ -1,0 +1,123 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+}
+.responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 85%;
+  border-radius: 12px;
+  max-width: 550px;
+}
+.appointments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 86%;
+}
+.add-appointments-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 64px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #171f46;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+.input {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: 1px solid #b5b7c4;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 24px;
+  padding: 12px;
+}
+.add-btn {
+  color: #ffffff;
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  align-self: flex-start;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  padding: 12px;
+  outline: none;
+}
+.appointments-img {
+  display: none;
+}
+
+@media screen and (min-width: '768px') {
+  .appointments-img {
+    display: block;
+    width: 49%;
+  }
+}
+
+.hr {
+  border: 1px solid #b5b7c4;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.header-filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: strech;
+}
+.appointment-head {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #171f46;
+  font-weight: 500;
+}
+.filter-style {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
+.appointments-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+  margin-top: 24px;
+}
